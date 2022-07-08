@@ -1,15 +1,9 @@
-# /create with Bun runtime
+# sunshine
 
-A [slash-create](https://npm.im/slash-create) template, using [Bun runtime](https://bun.sh).
+Search the publically available MUN sunshine list via Discord!
 
-## Getting Started
+A [slash-create](https://npm.im/slash-create) Discord bot, using [Bun runtime](https://bun.sh).
 
-### Cloning the repo
-
-```sh
-bun create discord-interactions interactions-bot
-```
-
-### Development
+## Development
 
 To run this locally, rename `.env.example` to `.env` and fill in the variables, then you can run `bun run.js` to start a local dev environment and use something like ngrok/cloudflare to tunnel it to a URL.
