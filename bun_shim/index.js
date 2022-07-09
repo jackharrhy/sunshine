@@ -20,7 +20,7 @@ export class BunSlashCreator extends Creator {
       } catch (error) {
         this.emit(
           "error",
-          new Error(`Failed to load command ${filePath}: ${e}`)
+          new Error(`Failed to load command ${path}: ${error}`)
         );
       }
     }
