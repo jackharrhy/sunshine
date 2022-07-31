@@ -16,6 +16,8 @@ client.on("error", console.error);
 client.withServer(new BunServer());
 await client.registerCommandsIn(path.join(__dirname, "commands"));
 
+console.log("☀️");
+
 client.syncCommands();
 await client.server.listen(3000);
 
